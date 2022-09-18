@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(179, 179, 179);
+}
+
+.container{
+    margin-top: 2em;
+    width: 18em;
+    
+}
+
+
+.inputContainer,.outputContainer{
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.inputContainer{
+    background-color: rgb(121, 2, 2);
+    
+}
+
+.outputContainer{
+    background-color: rgb(255, 255, 255);
+    word-break: break-all;
+    padding: 1em;
+    text-align: center;
+}
+
+
+h1{
+    color: rgb(121, 2, 2);
+}
+
+input{
+    
+    background-color:rgb(121, 2, 2);
+    width: 5em;
+    height: 3em;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    color: aliceblue;
+   
+}
+
+input:focus{
+    outline: none;
+}
+
+
